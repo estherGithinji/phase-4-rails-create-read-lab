@@ -1,5 +1,7 @@
 puts '🌱 Seeding plants...'
 
+Plant.destroy_all
+
 Plant.create!([
   {
     name: 'Aloe',
